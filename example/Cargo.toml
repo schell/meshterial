@@ -1,0 +1,15 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["Schell Scivally <efsubenovex@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+meshterial = { path = "../meshterial" }
+collada = "0.11"
+image = "0.20"
+nalgebra = "0.16"
+nalgebra-glm = "0.2"
+sdl2 = "0.32.2"
+vulkano = "0.11"
+vulkano-shaders = {git = 'https://github.com/vulkano-rs/vulkano.git'}
